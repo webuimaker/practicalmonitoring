@@ -1,0 +1,30 @@
+<section class="about section border-top" id="author">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-5 col-md-3">
+                <div class="about-img">
+                    <img src="{{page.author.image}}" alt="{{page.author.name}}" class="img-fluid w-100">
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-9">
+                <div class="author-info pl-4 mt-5 mt-lg-0">
+                    <span>Know More About Author</span>
+                    <h2 class="text-lg">{{page.author.name}}<span class="text-sm">- {{page.author.position}}</span></h2>
+                        {{page.author.desc }}   
+
+                    <div class="follow mt-3">
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><span class="mb-3">Follow Me :</span></li>
+                            {% for socials in site.social %}
+                            <li class="list-inline-item">
+                                <a href="{{socials.url}}"><i class="{{socials.icon}}"></i></a>
+                            </li>
+                           {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> 

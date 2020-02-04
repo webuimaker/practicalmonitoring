@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {% include head.html %}
+    <body>
+      {% include header.html %} 
+      <div id='main' role='main'>   
+        <section class="about section border-top" id="author">
+          <div class="container">
+              <div class="row align-items-center">
+                <h2 class="text-lg">{{page.title}}</h2>
+      
+                  <div class="col-lg-12">
+                      {{content}}
+                  </div>
+              </div>
+          </div>
+      </section> 
+        
+        {% include purchase.html %}        
+        {% include cta.html %}       
+        
+      </div>  
+      {% include footer.html %}
+    </body>
+</html>

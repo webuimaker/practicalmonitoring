@@ -1,0 +1,20 @@
+<section class="featured-client pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="text-center border p-2">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4">
+                             <span class="h5">Purchase Practical Monitoring From:</span>
+                        </div>
+                        {% for purchases in site.purchase %}
+                        <div class="col-lg-2 col-md-4">
+                            <a href="{{purchases.url}}"><img src="{{purchases.image}}" alt="{{purchases.title}}" class="img-fluid"></a>
+                        </div> 
+                        {% endfor %} 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

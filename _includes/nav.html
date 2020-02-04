@@ -1,0 +1,31 @@
+<!-- Navigation Menu -->
+
+
+    <!-- NAVBAR
+    ================================================= -->
+    <div class="main-navigation fixed-top site-header border-bottom" id="mainmenu-area">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container align-items-center">
+                <a class="navbar-brand" href="index.html">
+                    <h2 class="mb-0"><img src="{{site.baseurl}}/{{site.logo}}" class="img-fluid" alt="{{site.title}}"></h2>
+                </a>
+                <!-- Toggler -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarmain" aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="ti-menu-alt"></span>
+                </button>
+
+                <!-- Collapse -->
+                <div class="collapse navbar-collapse text-center text-lg-left" id="navbarmain">
+                    
+
+                    <div class="collapse navbar-collapse text-center text-lg-left" id="navbarmain">
+                        <!-- Links -->
+                        <ul class="navbar-nav ml-auto">
+                            {% for nav in site.navigations %}				
+				            <li  class="nav-item"><a href="{{site.baseurl}}/{{ nav.url }}" class="nav-link {% if nav.url == page.url %} active{% endif %}">{{ nav.title }}</a></li>				
+                        {% endfor %}
+                        </ul>    
+                        <a href="https://www.amazon.com/Practical-Monitoring-Effective-Strategies-World/dp/1491957352" target="_blank" class="btn btn-border-tp btn-small ml-3">Purchase Now</a>
+                    </div>
+        </nav>
+    </div>

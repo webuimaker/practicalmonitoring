@@ -1,0 +1,79 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Your awesome title
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: mike_julian
+github_username:  jekyll
+logo:             "assets/images/logo.png"
+permalink:              /:title/ # Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
+
+paginate:               6 # Number of posts displayed on blog page
+paginate_path:          "/blog/page:num/" # Blog path
+
+### Site Navigations
+navigations: 
+ - 
+  title: "HOME"
+  url: ""
+ - 
+  title: "Code"
+  url: "https://github.com/mjulian/practicalmonitoring"
+ - 
+  title: "Errata"
+  url: "https://www.oreilly.com/catalog/errata.csp?isbn=0636920050773"
+
+### Social Media 
+social: 
+ - 
+  title: "Twitter"
+  url: "https://twitter.com/mike_julian"
+  icon: "ti-twitter"
+
+### Purchase From 
+purchase: 
+ - 
+  title: "oreilly"
+  url: "https://www.oreilly.com/library/view/practical-monitoring/9781491957349/"
+  image: "/assets/images/oreilly_logo_mark_red.svg"
+ - 
+  title: "amazon"
+  url: "https://www.amazon.com/Practical-Monitoring-Effective-Strategies-World/dp/1491957352"
+  image: "/assets/images/amazon.png"
+   
+
+# Build settings
+markdown: kramdown
+#theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

@@ -1,0 +1,26 @@
+<section class="section chapter " id="chapter">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="section-heading text-center">
+                    <h2 class="text-lg"> {{page.chapterOverview.heading}} </h2>
+                    <p>{{page.chapterOverview.subHeading}}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            {% for chapters in page.chapterOverview.Overview %}
+                <div class="col-lg-6 col-sm-6">
+                    <div class="chapter-item d-flex">
+                        <i class="ti-check"></i>
+                        <div class="content pl-4">
+                            <h4>{{chapters.title}}</h4>
+                            <p>{{chapters.desc}}</p>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

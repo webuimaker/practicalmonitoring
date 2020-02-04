@@ -1,0 +1,36 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="{{ site.baseurl | absolute_url }}favicon.png" sizes="32x32">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+  <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+  <link rel="canonical" href="{% if page.canonical %}{{ page.canonical }}{% else %}{{ page.url | absolute_url }}{% endif %}"/>
+  <meta property="og:locale" content="en_GB" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{% if page.og-title %}{{ page.og-title }}{% else %}{{ site.og-title }}{% endif %}"/>
+  <meta property="og:description" content="{% if page.og-description %}{{ page.og-description }}{% else %}{{ site.og-description }}{% endif %}" />
+  <meta property="og:url" content="{{ page.url | absolute_url }}" />
+  <meta property="og:site_name" content="practicalmonitoring" />
+  <meta name="apple-mobile-web-app-title" content="practicalmonitoring">
+  <meta name="application-name" content="practicalmonitoring">
+  <meta property="og:image" content="{% if page.og-image %}{{ site.uploads | absolute_url }}{{ page.og-image }}{% else %}{{ site.uploads | absolute_url }}{{ site.og-image }}{% endif %}"/>
+  <meta property="og:image:width" content="{% if page.og-image-width %}{{ page.og-image-width }}{% else %}{{ site.og-image-width }}{% endif %}" />
+  <meta property="og:image:height" content="{% if page.og-image-height %}{{ page.og-image-height }}{% else %}{{ site.og-image-height }}{% endif %}" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:description" content="{% if page.twitter-description %}{{ page.twitter-description }}{% else %}{{ site.twitter-description }}{% endif %}" />
+  <meta name="twitter:title" content="{% if page.twitter-title %}{{ page.twitter-title }}{% else %}{{ site.twitter-title }}{% endif %}" />
+  <meta name="twitter:site" content="@practicalmonitoring" />
+  <meta name="twitter:image" content="{% if page.twitter-image %}{{ site.uploads | absolute_url }}{{ page.twitter-image }}{% else %}{{ site.uploads | absolute_url }}{{ site.twitter-image }}{% endif %}" />
+  <meta name="twitter:creator" content="@practicalmonitoring" />
+  <meta property="og:image" content="{% if site.logo contains 'http' %}{{ site.logo }}{% else %}{{ site.uploads | absolute_url }}{{ site.logo }}{% endif %}"/>
+  <!--BS4-->
+  <link rel="stylesheet" href="/assets/css/bootstrap4.min.css">  
+  <link rel="stylesheet" href="{{ '/assets/themify-icons.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="shortcut icon" type="image/png" href="{{ site.uploads | relative_url }}favicon.png">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</head>
