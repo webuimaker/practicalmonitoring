@@ -46,7 +46,11 @@ social:
  - 
   title: "Twitter"
   url: "https://twitter.com/mike_julian"
-  icon: "ti-twitter"
+  icon: "ti-twitter" 
+ - 
+  title: "Linkedin"
+  url: "https://www.linkedin.com/in/miketjulian/"
+  icon: "ti-linkedin"
 
 ### Purchase From 
 purchase: 

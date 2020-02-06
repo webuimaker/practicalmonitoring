@@ -2,19 +2,21 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
-banner:
+banner: 
   available: Amazon and Oreilly
   heading: Practical Monitoring
   subHeading: Effective Strategies For The Real World
   desc: "Do you have a nagging feeling that your monitoring needs improvement, but you just aren’t sure where to start or how to do it? Are you plagued by constant, meaningless alerts? Does your monitoring system routinely miss real problems? This is the book for you."
   btnText: Buy now
-  btnURL: "https://www.oreilly.com/library/view/practical-monitoring/9781491957349/"
+  btnURL: "https://www.oreilly.com/library/view/practical-monitoring/9781491957349/"  
+  btnText2: Download Free Chapter!
+  btnURL2: "https://www.oreilly.com/library/view/practical-monitoring/9781491957349/"
   image: "/assets/images/cover.jpg"
 about:
   heading: About The Book
   lead: Do you have a nagging feeling that your monitoring needs improvement, but you just aren’t sure where to start or how to do it? Are you plagued by constant, meaningless alerts? Does your monitoring system routinely miss real problems? This is the book for you.
   desc: " <p>Mike lays out a practical approach to designing and implementing an effective monitoring—from the application down to hardware in a datacenter, and everything between. Practical Monitoring will provide you with straight-forward strategies and tactics for designing and implementing a strong monitoring foundations for your company.</p> <p>Practical Monitoring has a unique vendor-neutral approach to monitoring. Rather than discuss how to implement specific tools, Mike teaches the principles and underlying mechanics behind monitoring so you can implement the lessons in any tool.</p>"
-  image: "/assets/images/book-2.jpg"
+  image: "/assets/images/book1.png"
 chapterOverview:
   heading: Chapter overview for  Practical Monitoring
   subHeading: Effective Strategies for the Real World
