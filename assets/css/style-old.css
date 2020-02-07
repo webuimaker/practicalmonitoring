@@ -637,12 +637,6 @@ a:hover, a:focus {
       display: inline-block;
       font-size: 36px;
     }
-	
-	#book .text-lg{font-size:34px;}
-	#book .mt-5{margin-top:0 !important;}
-	#banner .main-banner p{padding-right:0;}
-	#banner .btn{padding:12px; font-size:13px;}
-	#banner h1{font-size:32px;}
   }
   
   .book-info ul li {
@@ -744,7 +738,7 @@ a:hover, a:focus {
   .author-info a:hover {
     color: #2ea3f2;
   }
- 
+  
   
 /*----------------------
  FOOTER
@@ -796,32 +790,9 @@ footer .socials li a:hover {color: #2ea3f2;}
   /******************************************************************************************/
 
 
-@media (max-width: 575.98px) { 
+  @media (max-width: 575.98px) { 
     .navbar-brand {padding: 10px;}
     .featured-client img {margin: 0px;}    
     .section-heading h2 {font-size: 36px;}
-}
-   
-@media screen and (max-width: 767px) {
- 	#banner .banner-img{display:none;} 
-	.newboxpad{padding:15px !important;}
-	.newboxpad .h5{font-size:16px;}
-	.newboxpad img{padding:15px 0;}
-	.py-7{padding:4.5rem 0 2rem;}
-	.section{padding:2.5rem 0;}
-	#book .section-heading{margin-bottom:0;}
-	#book .section-heading .mb-40{margin-bottom:0;}
-	#features .section-heading, #chapter .section-heading{margin-bottom:0;}
-	#features .service-block{min-height:inherit;}
-	#features .service-block{padding:15px;}
-}
 
-@media (min-width: 768px) and (max-width: 991px) {
-  #author .row.align-items-center  {
-    align-items: start !important;
-  }
-  #author .row.align-items-center    .author-info{
-    margin-top: 0px !important;
-  }
-
-}
+   }
