@@ -363,6 +363,12 @@ a:hover, a:focus {
   top: 100%;
 }
 
+.navbar-toggler>.close {
+  display:inline;
+}
+.navbar-toggler.collapsed>.close, .navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
+  display:none;
+}
 
 /*-------------------
   DROPDOWN MENU
