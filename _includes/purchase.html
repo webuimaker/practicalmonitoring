@@ -9,8 +9,8 @@
                         </div>
                     
                         {% for purchases in site.purchase %}
-                        <div class="col-lg-2 col-md-4">
-                            <a href="{{purchases.url}}"><img src="{{purchases.image}}" alt="{{purchases.title}}" class="img-fluid"></a>
+                        <div class="col-lg-2 col-md-4 align-items-start justify-content-start">
+                            <a href="{{purchases.url}}"><img src="{{purchases.image}}" alt="{{purchases.title}}" class="img-fluid mt-2"></a>
                         </div> 
                         {% endfor %} 
                     </div>
