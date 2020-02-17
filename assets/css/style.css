@@ -226,6 +226,20 @@ Common Styles
   font-size: 13px;
 }
 
+.formkit-form[data-uid="8f1e4c8bcc"] .formkit-button, .formkit-form[data-uid="8f1e4c8bcc"] .formkit-submit, .formkit-form[data-uid="4278b0e51f"][min-width~="700"] .formkit-fields[data-stacked="false"] .formkit-submit, .formkit-form[data-uid="4278b0e51f"][min-width~="800"] .formkit-fields[data-stacked="false"] .formkit-submit {
+  border-radius: 35px !important;
+}
+
+.formkit-form[data-uid="8f1e4c8bcc"] .formkit-button > span, .formkit-form[data-uid="8f1e4c8bcc"] .formkit-submit > span, .formkit-form[data-uid="4278b0e51f"] .formkit-button > span, .formkit-form[data-uid="4278b0e51f"] .formkit-submit > span{
+  background: #385777;
+  
+}
+
+
+.formkit-form[data-uid="8f1e4c8bcc"] .formkit-button:hover, .formkit-form[data-uid="8f1e4c8bcc"] .formkit-submit:hover, .formkit-form[data-uid="4278b0e51f"][min-width~="700"] .formkit-fields[data-stacked="false"] .formkit-submit:hover, .formkit-form[data-uid="4278b0e51f"][min-width~="800"] .formkit-fields[data-stacked="false"] .formkit-submit:hover{
+  background: #000 !important;
+}
+
 /*------------------------
  BACKGROUND
 ----------------------------*/
@@ -774,6 +788,35 @@ a:hover, a:focus {
 footer .socials li a {color: #fff;}
 
 footer .socials li a:hover {color: #2ea3f2;}
+/*----------------------
+ Formkit
+-----------------------*/
+
+
+.formkit-outter .formkit-form[data-uid="8f1e4c8bcc"][min-width~="600"] [data-style="minimal"]{
+  padding: 10px 40px;
+}
+
+.formkit-outter .formkit-subheader p{
+  font-size: 16px !important;
+  margin: 0px auto;
+  padding: 0px;
+  line-height: 1.5em;
+}
+.formkit-outter .formkit-form[data-uid="8f1e4c8bcc"] .formkit-header {
+  margin-bottom: 15px;
+}
+
+.formkit-outter .formkit-form[data-uid="8f1e4c8bcc"] .formkit-header h1 {
+  line-height: 1.5em;
+}
+.formkit-outter .formkit-form[data-uid="8f1e4c8bcc"] .formkit-fields {
+  margin-top: 15px;
+}
+.formkit-outter .formkit-form[data-uid="8f1e4c8bcc"] .formkit-guarantee {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
 
 
 /******************************************************************************************
@@ -829,6 +872,20 @@ footer .socials li a:hover {color: #2ea3f2;}
   }
   #author .row.align-items-center    .author-info{
     margin-top: 0px !important;
+  }
+  
+.formkit-outter .formkit-form[data-uid="8f1e4c8bcc"][min-width~="600"] [data-style="minimal"]{
+  padding: 10px;
+}
+
+  .formkit-outter .formkit-form[data-uid="8f1e4c8bcc"] .formkit-header h1 {
+    font-size: 20px !important;
+  }
+  .formkit-outter .formkit-form[data-uid="8f1e4c8bcc"] .formkit-header {
+    margin-bottom: 10px;
+  }
+  .formkit-outter .formkit-subheader p{
+    font-size: 14px !important;
   }
 
 }
